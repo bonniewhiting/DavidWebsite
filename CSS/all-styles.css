@@ -3,6 +3,13 @@ body {
     font-family: 'Cormorant Garamond';
     background-color: rgb(250, 240, 225);
   }
+
+  #owl {
+    display: block;
+    width: 90vw;
+    max-width: 1000px;
+    margin: 30px auto;
+}
   
   .nav li,
   #menu-button {

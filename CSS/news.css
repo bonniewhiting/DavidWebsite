@@ -1,0 +1,16 @@
+main {
+    margin: 5vw auto 10vw auto;
+}
+
+section {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+section img {
+    display: block;
+    margin: 5vh auto;
+    aspect-ratio: 667 / 1000;
+    max-height: 500px;
+}
