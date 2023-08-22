@@ -17,21 +17,63 @@
 
 <body>
     <header>
-        <a class="otherPage" id="DCHeader" href="./index.html">david nikki crouse</a>
+        <a class="otherPage" id="DCHeader" href="./news.html">david nikki crouse</a>
         <nav role="navigation" class="nav">
             <button id="menu-button">Menu</button>
             <ul id="menu-UL">
-                <li><a class="otherPage dd" href="./news.html">News</a></li>
-                <li><a class="otherPage dd" href="./about.html">About</a></li>
-                <li><a class="otherPage dd" href="./stories.html">Stories</a></li>
-                <li><a class="otherPage dd" href="./story-frags.html">Story Frags</a></li>
-                <li><a class="otherPage dd" href="./reviews.html">Reviews</a></li>
-                <li><a class="activePage dd" href="./my-snaps.html">My Snaps</a></li>
-                <li><a class="otherPage dd" href="./nonsense.html">Nonsense</a></li>
+                <li><a class="otherPage " href="./news.html">News</a></li>
+                <li><a class="otherPage " href="./about.html">About</a></li>
+                <li id="nav-stories">
+                    <p class="otherPage" id="stories">Stories</p>
+                    <ul class="stories-dropdown">
+                        <li>
+                            <p class="story-sub">Books</p>
+                            <ul class="stories-sub-dropdown">
+                                <li><a class="story-link" href="./stories/im-here-alaska-stories.html">I'm Here -<br> Alaska Stories</a></li>
+                                <li><a class="story-link" href="./stories/trouble-will-save-you.html">Trouble Will Save You</a></li>
+                                <li><a class="story-link" href="./stories/copy-cats.html">Copy Cats</a></li>
+                                <li><a class="story-link" href="./stories/the-man-back-there.html">The Man Back
+                                        There</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="story-sub">Other</p>
+                            <ul class="stories-sub-dropdown">
+                                <li><a class="story-link" href="./stories/morte-infinita.html">Morte Infinita</a></li>
+                                <li><a class="story-link" href="./stories/show-and-tell.html">Show & Tell</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="story-sub">"Deleted Scenes" from The Man Back There</p>
+                            <ul class="stories-sub-dropdown">
+                                <li><a class="story-link" href="./stories/small-town-news.html">Small Town News</a></li>
+                                <li><a class="story-link" href="./stories/still-running.html">Still Running</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li><a class="otherPage" href="./story-frags.html">Story Frags</a></li>
+                <li id="nav-reviews">
+                    <p class="otherPage" href="./reviews.html">Reviews</p>
+                    <ul class="reviews-dropdown">
+                        <li><a class="review-link" href="./reviews/barn-owl-review.html">Barn Owl Review</a></li>
+                        <li><a class="review-link" href="./reviews/boston-phoenix.html">Boston Phoenix</a></li>
+                        <li><a class="review-link" href="./reviews/oprah-magazine.html">Oprah Magazine</a></li>
+                        <li><a class="review-link" href="./reviews/publishers-weekly.html">Publisher's Weekly</a></li>
+                        <li><a class="review-link" href="./reviews/sf-chronicle.html">The San Francisco Chronicle</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a class="activePage" href="./my-snaps.html">My Snaps</a></li>
+                <li><a class="otherPage" href="./nonsense.html">Nonsense</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main >
+        <div id="my-snaps-main">
+
+        </div>
     </main>
     <footer>
         <p>website by <a href="https://www.masonlynass.com" target="_blank" rel="noopener noreferrer">Mason Lynass</a>
@@ -39,5 +81,5 @@
     </footer>
 </body>
 <script src="script.js"></script>
-
+<script src="my-snaps.js"></script>
 </html>
