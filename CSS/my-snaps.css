@@ -34,3 +34,18 @@ footer {
         margin: 0 2vw;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #my-snaps-main {
+        display: block;
+        width: 80vw;
+        margin: 10vw auto;
+    }
+
+    .one-snap a img {
+        object-fit: cover;
+        width: 80vw;
+        height: 80vw;
+        margin: 10px auto;
+    }
+}

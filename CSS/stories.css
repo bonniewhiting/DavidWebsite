@@ -1,3 +1,9 @@
+:root {
+    --main-bg-color: rgb(245, 245, 245);
+    --main-other: rgb(10, 69, 12);
+    --green-lighter: rgb(64, 121, 66);
+  }
+
 /* for stories main */
 
 #stories-main {
@@ -62,7 +68,7 @@ main h2 {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     gap: 2vw;
 }
 
@@ -72,6 +78,7 @@ main h2 {
 }
 
 img {
+    width: 20vw;
     max-width: 400px;
 }
 
@@ -102,17 +109,26 @@ img {
     text-align: center;
 }
 
+.full-story div p i {
+    display: inline;
+}
+
 .full-story hr {
     width: 200px;
 }
 
 .story-about {
-    background-color: rgba(0,0,0,.2);
+    background-color: var(--green-lighter);
+    
     text-align: center;
     width: fit-content;
     padding: 1px 20px;
     margin: auto;
     border-radius: 10px;
+}
+
+.story-about, .story-about a {
+    color: var(--main-bg-color);
 }
 
 footer {

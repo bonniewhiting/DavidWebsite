@@ -1,7 +1,7 @@
 main {
     width: 90vw;
     max-width: 1000px;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 #reviews-main section {
@@ -17,4 +17,22 @@ main {
     display: block;
     font-size: 20px;
     margin: 40px auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    #reviews-main section {
+        margin: 80px auto 100px auto;
+    }
+
+    #reviews-main section p {
+        font-size: 18px;
+        margin: auto;
+    }
+
+    #reviews-main section a {
+        display: block;
+        font-size: calc((2 - 1) * 1.2vw + .6rem);
+        margin: 40px auto;
+    }
 }
