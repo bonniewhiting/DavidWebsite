@@ -1,6 +1,7 @@
 main {
     display: block;
-    margin: 0 2vw calc(400px - (100vw / 10)) 2vw;
+    margin: -25px auto;
+    /* margin: 0 2vw calc(400px - (100vw / 10)) 2vw; */
 }
 
 #my-snaps-main {
@@ -8,9 +9,11 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px auto;
+    padding: 50px;
+    margin: auto;
     gap: 3%;
     max-width: 1300px;
+    background-color: rgb(245,245,245);
 }
 
 .one-snap a img {
@@ -31,7 +34,8 @@ footer {
 
 @media screen and (max-width: 831px) {
     main {
-        margin: 0 2vw;
+        margin: auto;
+        padding: 10px;
     }
 }
 
@@ -39,7 +43,8 @@ footer {
     #my-snaps-main {
         display: block;
         width: 80vw;
-        margin: 10vw auto;
+        margin: auto;
+        padding: 10px;
     }
 
     .one-snap a img {

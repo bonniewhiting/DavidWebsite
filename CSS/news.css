@@ -1,11 +1,9 @@
-main {
-    margin: 5vw auto 10vw auto;
-}
-
 section {
     width: 90vw;
     max-width: 1000px;
-    margin: 20px auto;
+    padding: 40px;
+    margin: auto;
+    background-color: rgb(245,245,245);
 }
 
 section img {
@@ -13,4 +11,16 @@ section img {
     margin: 5vh auto;
     aspect-ratio: 667 / 1000;
     max-height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 80vw;
+        padding: 5vw;
+    }
+
+    section img {
+        width: 75vw;
+        margin: 2vh auto;
+    }
 }

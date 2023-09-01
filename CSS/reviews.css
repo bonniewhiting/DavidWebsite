@@ -1,11 +1,20 @@
 main {
-    width: 90vw;
+    margin: -30px auto;
+}
+
+main section {
+    background-color: rgb(245,245,245);
+    width: 70vw;
     max-width: 1000px;
-    margin: 20px auto;
+    min-height: 75vh;
+    margin: auto;
+    padding: 40px;
 }
 
 #reviews-main section {
-    margin: 80px auto;
+    width: 90vw;
+    max-width: 1000px;
+    margin: auto;
 }
 
 #reviews-main section p {
@@ -21,8 +30,15 @@ main {
 
 @media screen and (max-width: 600px) {
 
+    #reviews-main {
+        padding: 20px;
+    }
+
     #reviews-main section {
-        margin: 80px auto 100px auto;
+        width: 80vw;
+        min-height: 75vh;
+        margin: 2vh auto;
+        padding: 5vw;
     }
 
     #reviews-main section p {

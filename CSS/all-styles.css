@@ -201,6 +201,10 @@ header div {
   margin-bottom: 10px;
 } */
 
+main { 
+  background: url('/images/27302.webp');
+}
+
 footer {
   z-index: 1;
   display: flex;

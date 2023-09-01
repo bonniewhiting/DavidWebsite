@@ -1,9 +1,22 @@
 main {
+    margin: -25px auto 0px auto;
+}
+
+section {
     width: 90vw;
     max-width: 1000px;
-    margin: 20px auto;
+    padding: 40px;
+    margin: auto;
+    background-color: rgb(245,245,245);
 }
 
 h3:first-child {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 80vw;
+        padding: 1px 5vw;
+    }
 }

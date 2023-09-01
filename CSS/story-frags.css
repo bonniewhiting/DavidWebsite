@@ -1,9 +1,15 @@
-main {
-    width: 90vw;
+main section {
+    width: 70vw;
     max-width: 800px;
-    margin: 40px auto;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(245,245,245);
 }
 
-main section {
-    margin: 50px auto;
+main section h3 {
+    text-align: center;
+}
+
+main section:first-of-type {
+    padding: 10px 40px;
 }
