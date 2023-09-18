@@ -6,27 +6,48 @@
 
 /* for stories main */
 
+main {
+    margin: auto;
+    margin-top: -30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; 
+    padding-top: 50px;
+    min-height: calc(100vh - 220px);
+}
+
 #stories-main {
+    display: block;
     padding: 20px;
+    padding-bottom: 60px;
     min-height: 80vh;
     width: 90vw;
     margin: 0 auto;
+    box-shadow: 0px 0px 5vw 0 white;
 }
+
+
 
 #stories-flex {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: flex-start;
     width: 80vw;
     margin: auto;
     padding: 1px 20px 20px 20px;
-    background-color: rgb(245,245,245);
 }
 
 #stories-flex div h2 {
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
+    background-color: rgb(5,5,5);
+    width: fit-content;
+    color: rgb(245,245,245);
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 #stories-flex div a {
@@ -36,20 +57,20 @@
     text-align: center;
     margin: 20px auto;
     color: rgb(245, 245, 245);
-    background-color: rgb(64, 121, 66);
+    background-color: var(--main-other);
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
 }
 
-/* #stories-flex div div {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2vw;
-} */
+@media screen and (min-width: 1100px) {
+    #stories-main {
+        width: 100vw;
+        padding: 0;
+        padding-top: 20px;
+    }
+}
 
 @media screen and (max-width: 1100px) {
     #stories-flex {
@@ -66,15 +87,16 @@ main {
 main h2 {
     text-align: center;
     font-size: 36px;
+    margin: 1rem auto;
 }
 
 .story-with-flex, main section:first-child {
     width: 90vw;
     max-width: 1000px;
-    min-height: 75vh;
     margin: auto;
     padding: 40px;
     background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 5vw 0 white;
 }
 
 .story-flex {
@@ -144,7 +166,42 @@ img {
     color: var(--main-bg-color);
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
+@media screen and (max-width: 600px) {
+    main {
+        padding-bottom: 50px;
+    }
+
+    main section:first-child {
+        padding: 10px 20px;
+    }
+    
+    .story-flex div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .story-flex div p, .full-story section div p {
+        font-size: 14px;
+    }
+
+    .story-with-flex h2, .full-story section h2 {
+        font-size: 24px;
+    }
+
+    .story-flex hr {
+        width: 40vw;
+    }
+
+    blockquote {
+        margin: 10px;
+        font-size: 14px;
+        color: rgba(5,5,5,.7);
+    }
+
+    img {
+        display: block;
+        width: 80%;
+        max-width: none;
+        margin: 20px auto;
+    }
 }

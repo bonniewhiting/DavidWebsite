@@ -202,7 +202,8 @@ header div {
 } */
 
 main { 
-  background: url('/images/27302.webp');
+  background: url('/images/starry-night-sky.webp');
+  background-size: contain;
 }
 
 footer {
@@ -278,7 +279,7 @@ footer p a {
     padding: 5vw 0;
     background-color: rgb(15, 15, 15);
     width: 100vw;
-    height: calc(100vh - 79px - 10vw);
+    height: calc(100vh - 50px - 10vw);
   }
 
   .nav li a, .nav li p {
@@ -292,7 +293,8 @@ footer p a {
 
   nav li .activePage {
     border: 0px;
-    background-color: rgb(228, 67, 113);
+    background-color: var(--green-lighter);
+    color: rgb(245,245,245);
   }
 
   #menu-button {
@@ -307,9 +309,14 @@ footer p a {
     padding: 0 5px;
   }
 
+  main {
+    padding-bottom: 20px;
+  }
+
   #mobile-owl {
     display: block;
     width: 90vw;
-    margin: 20px auto;
+    margin: 0px auto;
+    margin-bottom: 20px;
   }
 }

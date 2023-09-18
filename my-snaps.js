@@ -12,7 +12,11 @@ const makeOneSnap = snap => {
 
     snapDiv.className = 'one-snap'
     snapLink.href = snap.permalink
+    snapLink.rel = 'noopener noreferrer'
+    snapLink.target = '_blank'
     snapMedia.src = snap.mediaUrl
+
+    if (snap.mediaType === "VIDEO") snapMedia.src = snap.thumbnailUrl
 
     snapLink.append(snapMedia)
     snapDiv.append(snapLink)
