@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap"
     />
     <link rel="stylesheet" href="./CSS/all-styles.css" />
-    <link rel="stylesheet" href="./CSS/news.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
   </head>
 
   <body>
@@ -46,12 +46,16 @@
                   <p class="story-sub">Books</p>
                   <ul class="stories-sub-dropdown">
                     <li>
-                      <a class="story-link" href="./stories/im-here-alaska-stories.html"
+                      <a
+                        class="story-link"
+                        href="./stories/im-here-alaska-stories.html"
                         >I'm Here -<br />Alaska Stories</a
                       >
                     </li>
                     <li>
-                      <a class="story-link" href="./stories/trouble-will-save-you.html"
+                      <a
+                        class="story-link"
+                        href="./stories/trouble-will-save-you.html"
                         >Trouble Will Save You</a
                       >
                     </li>
@@ -61,7 +65,9 @@
                       >
                     </li>
                     <li>
-                      <a class="story-link" href="./stories/the-man-back-there.html"
+                      <a
+                        class="story-link"
+                        href="./stories/the-man-back-there.html"
                         >The Man Back There</a
                       >
                     </li>
@@ -98,7 +104,9 @@
                   </p>
                   <ul class="stories-sub-dropdown">
                     <li>
-                      <a class="story-link" href="./stories/small-town-news.html"
+                      <a
+                        class="story-link"
+                        href="./stories/small-town-news.html"
                         >Small Town News</a
                       >
                     </li>
@@ -151,18 +159,40 @@
       </div>
     </header>
     <main>
-        <img id="mobile-owl" src="/images/owl.webp" alt="the owl from the cover of Alaska Stories"/>
+      <img
+        id="mobile-owl"
+        src="/images/owl.webp"
+        alt="the owl from the cover of Alaska Stories"
+      />
       <section>
-        <h3>
-          Trouble Will Save You, a collection of three novellas set in Alaska,
-          will be appearing in April 2023.
-        </h3>
-        <p>
-          Thank you to Jana Latham for the incredible cover design. Thank you
-          also to University of Alaska Press, University of Colorado Press, and
-          anybody else who assisted in getting this book out into the world.
-        </p>
-        <img src="./images/trouble-will-save-you.webp" />
+        <div id="carousel">
+          <button class="slArrow" id="slArrowPrev">&#8249;</button>
+          <button class="slArrow" id="slArrowNext">&#8250;</button>
+          <div id="index-pics">
+            <img
+              class="index-one-pic"
+              src="./images/main-page/david-books-1.webp"
+            />
+            <img class="index-one-pic" src="./images/main-page/salmon.webp" />
+            <img
+              class="index-one-pic"
+              src="./images/main-page/light-switch.webp"
+            />
+            <img
+              class="index-one-pic"
+              src="./images/main-page/copy-cats-books.webp"
+            />
+            <img class="index-one-pic" src="./images/main-page/dinos.webp" />
+            <img
+              class="index-one-pic"
+              src="./images/main-page/toys-grid.webp"
+            />
+            <img
+              class="index-one-pic"
+              src="./images/main-page/david-books-2.webp"
+            />
+          </div>
+        </div>
       </section>
     </main>
     <footer>
@@ -178,4 +208,5 @@
     </footer>
   </body>
   <script src="script.js"></script>
+  <script src="index-script.js"></script>
 </html>
