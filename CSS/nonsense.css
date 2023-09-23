@@ -39,7 +39,7 @@ header h1 {
 #nonsense-main h2 {
     text-align: center;
     font-size: 30px;
-    width: 90vw;
+    width: 80vw;
     max-width: 1000px;
     margin: 40px auto;
     border: 10px outset goldenrod;
@@ -70,4 +70,23 @@ header h1 {
     right: 50px;
     width: 150px;
     height: 75px;
+}
+
+@media screen and (max-width: 600px) {
+    #greetings, #spaceship {
+        top: 230px;
+    }
+
+    #greetings {
+        left: 20px;
+    }
+
+    #spaceship {
+        right: 20px;
+    }
+
+    #nonsense-main h2 {
+        font-size: 18px;
+        padding: 10px;
+    }
 }
