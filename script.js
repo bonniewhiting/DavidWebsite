@@ -21,12 +21,12 @@ if (mobileScreen.matches) {
   
   let storiesLink = document.createElement('a')
   storiesLink.classList.add('otherPage')
-  storiesLink.setAttribute('href', '/stories.html')
+  storiesLink.setAttribute('href', './stories.html')
   storiesLink.innerText = "Stories"
 
   let reviewsLink = document.createElement('a')
   reviewsLink.classList.add('otherPage')
-  reviewsLink.setAttribute('href', '/reviews.html')
+  reviewsLink.setAttribute('href', './reviews.html')
   reviewsLink.innerText = 'Reviews'
 
   stories.append(storiesLink)
