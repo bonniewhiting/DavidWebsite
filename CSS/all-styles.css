@@ -202,7 +202,7 @@ header div {
 } */
 
 main { 
-  background: url('../images/starry-night-sky.webp');
+  /* background: url('../images/starry-night-sky.webp'); */
   background-size: contain;
 }
 

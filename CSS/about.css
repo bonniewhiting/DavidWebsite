@@ -1,5 +1,7 @@
 main {
     margin: -25px auto 0px auto;
+    background: url(../images/brown-wooden-textured-flooring-background-65170f9b2a4be.webp);
+    object-fit: contain;
 }
 
 section {
