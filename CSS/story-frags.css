@@ -1,13 +1,14 @@
 main {
     background: url(../images/dark-concrete-texture-background-65170f5460320.webp);
     object-fit: contain;
+    min-height: 90vh;
 }
 
 main section {
     width: 70vw;
     max-width: 800px;
     margin: auto;
-    padding: 10px 40px;
+    padding: 40px;
     background-color: rgb(245,245,245);
     box-shadow: 0px 0px 5vw 0 white;
 }

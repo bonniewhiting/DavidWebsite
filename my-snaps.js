@@ -15,6 +15,7 @@ const makeOneSnap = snap => {
     snapLink.rel = 'noopener noreferrer'
     snapLink.target = '_blank'
     snapMedia.src = snap.mediaUrl
+    snapMedia.alt = "an image or video from David's Instagram"
 
     if (snap.mediaType === "VIDEO") snapMedia.src = snap.thumbnailUrl
 
