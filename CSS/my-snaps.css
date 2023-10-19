@@ -1,7 +1,7 @@
 main {
     display: block;
     margin: -25px auto;
-    background-image: url(../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-65170f5511c05.webp);
+    /* background-image: url(../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall-65170f5511c05.webp); */
     object-fit: contain;
     /* margin: 0 2vw calc(400px - (100vw / 10)) 2vw; */
 }

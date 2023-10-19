@@ -154,6 +154,7 @@ header div {
   left: 0;
   top: 100%;
   opacity: 0;
+  display: block;
 }
 
 #menu-UL ul > li > ul {
@@ -203,6 +204,7 @@ header div {
 
 main { 
   /* background: url('../images/starry-night-sky.webp'); */
+  background-color: rgb(5,5,5);
   background-size: contain;
 }
 
