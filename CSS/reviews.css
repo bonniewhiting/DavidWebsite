@@ -8,7 +8,7 @@ main {
     padding: 30px; 
     padding-top: 50px;
     min-height: calc(100vh - 190px);
-    background-image: url(../images/original-black-leather-texture-background-65170f9a20a4c.webp);
+    /* background-image: url(../images/original-black-leather-texture-background-65170f9a20a4c.webp); */
 }
 
 main section {

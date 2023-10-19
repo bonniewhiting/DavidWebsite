@@ -1,5 +1,5 @@
 main {
-    background: url(../images/dark-concrete-texture-background-65170f5460320.webp);
+    /* background: url(../images/dark-concrete-texture-background-65170f5460320.webp); */
     object-fit: contain;
     min-height: 90vh;
 }
@@ -19,4 +19,16 @@ main section h3 {
 
 main section:first-of-type {
     padding: 10px 40px;
+}
+
+@media screen and (max-width: 600px) {
+
+    main section {
+        width: 84vw;
+        padding: 2vw 3vw;
+    }
+
+    main section:first-of-type {
+        padding: 3vw;
+    }
 }
