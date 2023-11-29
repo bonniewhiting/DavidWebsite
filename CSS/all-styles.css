@@ -137,6 +137,7 @@ header div {
 .activePage {
   margin: -2px auto;
   border: 2px solid var(--main-other);
+  background-color: rgb(217, 234, 215) !important;
 }
 
 #menu-UL a {
@@ -204,7 +205,9 @@ header div {
 
 main { 
   /* background: url('../images/starry-night-sky.webp'); */
-  background-color: rgb(5,5,5);
+  /* background-color: rgb(5,5,5); */
+  /* background-color: rgb(235,235,235); */
+  background-color: rgb(217, 234, 215);
   background-size: contain;
 }
 
