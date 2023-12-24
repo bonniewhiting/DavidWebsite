@@ -14,13 +14,13 @@ main {
     justify-content: center;
     align-items: center;
     padding: 30px; 
-    padding-top: 50px;
+    /* padding-top: 50px; */
     min-height: calc(100vh - 220px);
 }
 
 #stories-main {
     display: block;
-    padding: 0 5vw;
+    /* padding: 0 5vw; */
     padding-bottom: 60px;
     min-height: 80vh;
     width: 90vw;

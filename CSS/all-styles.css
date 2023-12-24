@@ -72,6 +72,7 @@ header div {
 #DCHeader {
   display: block;
   width: fit-content;
+  text-transform: uppercase;
   /* min-width: 500px; */
   font-size: calc((2 - 1) * 1.2vw + 1.8rem);
   font-weight: 600;
@@ -137,7 +138,7 @@ header div {
 .activePage {
   margin: -2px auto;
   border: 2px solid var(--main-other);
-  background-color: rgb(217, 234, 215) !important;
+  background-color: rgb(215, 215, 215) !important;
 }
 
 #menu-UL a {
@@ -174,7 +175,7 @@ header div {
 }
 
 #nav-reviews:hover, #nav-reviews:hover .reviews-dropdown, #nav-stories:hover, #nav-stories:hover .stories-dropdown, .stories-dropdown:hover .stories-sub-dropdown {
-  background-color: rgb(217, 234, 215);
+  background-color: rgb(215, 215, 215);
 }
 
 .reviews-dropdown .review-link {
@@ -206,8 +207,8 @@ header div {
 main { 
   /* background: url('../images/starry-night-sky.webp'); */
   /* background-color: rgb(5,5,5); */
-  /* background-color: rgb(235,235,235); */
-  background-color: rgb(217, 234, 215);
+  background-color: rgb(215,215,215);
+  /* background-color: rgb(217, 234, 215); */
   background-size: contain;
 }
 

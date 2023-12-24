@@ -5,7 +5,26 @@ section {
     margin: auto;
     background-color: rgb(245,245,245);
     /* box-shadow: 0px 0px 5vw 0 white; */
-    
+}
+
+#news-main h2 {
+    text-align: center;
+}
+
+#news-main a {
+    color: black;
+}
+
+#news-main p {
+    font-size: 18px;
+}
+
+#news-images-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 section img {
