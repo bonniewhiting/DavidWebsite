@@ -7,6 +7,12 @@ section {
     /* box-shadow: 0px 0px 5vw 0 white; */
 }
 
+hr {
+    margin: 100px auto;
+    width: 80vw;
+    max-width: 300px;
+}
+
 #news-main h2 {
     text-align: center;
     margin: 40px auto;
