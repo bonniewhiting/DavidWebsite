@@ -9,6 +9,7 @@ section {
 
 #news-main h2 {
     text-align: center;
+    margin: 40px auto;
 }
 
 #news-main a {
@@ -16,7 +17,8 @@ section {
 }
 
 #news-main p {
-    font-size: 18px;
+    font-size: 20px;
+    margin: 20px auto;
 }
 
 #news-images-flex {
